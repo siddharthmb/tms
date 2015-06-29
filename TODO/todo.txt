@@ -1,0 +1,4 @@
+0) add project to git repository.
+1) include boost 3rd party library in the project.
+2) using the boost library, parse and set the config from the ini file.
+3) start with the actual application at last. Refer the document made in the ~/Plan/ directory.

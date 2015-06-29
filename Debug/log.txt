@@ -1,0 +1,5 @@
+Mon Jun 29 17:38:31 2015 FATAL: Just testing if working or not!
+Mon Jun 29 17:38:31 2015 CRITICAL: Just testing if working or not!
+Mon Jun 29 17:38:31 2015 DEBUG: Just testing if working or not!
+Mon Jun 29 17:38:31 2015 ERROR: Just testing if working or not!
+Mon Jun 29 17:38:31 2015 INFO: Just testing if working or not!
