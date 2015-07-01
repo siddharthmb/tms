@@ -2,3 +2,14 @@
 1) include boost 3rd party library in the project.
 2) using the boost library, parse and set the config from the ini file.
 3) start with the actual application at last. Refer the document made in the ~/Plan/ directory.
+
+
+
+github repository:
+------ ----------
+
+From my own machine,
+    git@github.com:siddharthmb/tms.git
+
+From any other machine,
+    git://github.com/siddharthmb/tms.git

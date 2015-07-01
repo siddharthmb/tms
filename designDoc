@@ -1,0 +1,27 @@
+		15th June 2015
+		--------------
+
+1) Cronjob
+	The linux utility of cron job will be handling the task of executing the terminal along with my project.
+
+2) Argument reader and validator (class -- singleton)
+	We just need one entity that can validate and read all the commandline arguments. This class will read the command line parameter and
+	will make the decision whether we are running the process for the morning or the evening thingy.
+
+3) A Base Class (name to be decided later)
+	This will be a pure abstract class, from which we will derive two classes. One will handle the responsibility of morning and the 
+	other of the evening. We are making these as two different classes because morning and evening functionalities will be totally
+	different.
+
+4) Morning & Evening Classes (again, names later)
+	Morning will handle the responsibility of accepting the details, Evening will be asking the status. These classes can actually be singleton
+	as well, but that I will think over and finalize later. However, these won't be dealing with file handling.
+
+5) File Handler
+	This class will essentially communicate with Morning and Evening for both the reading and writing operations over the files.
+
+6) Logger
+	This, I will have to read about and learn the log levels. Also, the level of logging will be provided as a command line argument. This is 
+	what I am thinking as of now, but finalizing will be done later whether to keep a config file or just keep this as a command line argument.
+	This class will be a singleton or not will be decided later as well.
+	But this class will have to be absolutely 0 coupled with other classes so that I can use the same logger in other projects as well.
