@@ -1,3 +1,4 @@
+-1) initialize all the static members of the IniParser class in the .cxx file.
 0) add project to git repository.
 1) include boost 3rd party library in the project.
 2) using the boost library, parse and set the config from the ini file.
